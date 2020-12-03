@@ -14,7 +14,7 @@ Advent of Code Challenges
 </thead>
 <tbody>
 <tr>
-<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji> <a href="https://github.com/pwncraft/adventofcode2020/tree/master/advent/Day01">Day 1: Report Repair</a></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji> <a href="https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/DayOne">Day 1: Report Repair</a></td>
 <td align="center"><g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji></td>
 <td align="center"><g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji></td>
 </tr>
