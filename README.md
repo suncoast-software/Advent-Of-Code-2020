@@ -19,7 +19,7 @@ Advent of Code Challenges
 <td align="center"><g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji></td>
 </tr>
 <tr>
-<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji> <a href="https://github.com/pwncraft/adventofcode2020/tree/master/advent/Day02">Day 2: Password Philosophy</a></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji> <a href="https://github.com/suncoast-software/Advent of Code/tree/master/advent/DayTwo">Day 2: Password Philosophy</a></td>
 <td align="center"><g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji></td>
 <td align="center"><g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji></td>
 </tr>
