@@ -9,8 +9,10 @@ namespace Advent_Of_Code
     {
         static void Main(string[] args)
         {
-            var valid = DayTwo.DayTwo.ParsePasswordInput(); 
-            Console.WriteLine($"result is : [{valid}]");
+            var valid = DayThree.DayThree.CountTrees(3,1);
+            var partTwo = DayThree.DayThree.FindPartTwo();
+            Console.WriteLine($"Part One is : [{valid}]");
+            Console.WriteLine($"Part Two is : [{partTwo}]");
             Console.ReadLine();
         }
     }
