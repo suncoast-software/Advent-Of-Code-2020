@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using Advent_Of_Code.Helper;
 
 namespace Advent_Of_Code.Day4
 {
@@ -12,6 +14,8 @@ namespace Advent_Of_Code.Day4
 
         public static int SolvePart1()
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
             int validPassports = 0;
             Dictionary<string, bool> fieldIds = new Dictionary<string, bool>()
             {
@@ -25,9 +29,9 @@ namespace Advent_Of_Code.Day4
                 {"cid", false},
             };
             int expectedRequiredFieldCount = fieldIds.Where(x => x.Value).Count();
-            string data = File.ReadAllText(@"Day4\day4input.txt");
+            string data = WebClientHelper.GetInput(4);
             var passports = data.Replace("\r", "").Replace("\n\n", "@").Split(new char[] { '@' }, StringSplitOptions.RemoveEmptyEntries);
-            Console.WriteLine($"Found {passports.Length:NO} passports");
+            Console.WriteLine($"Found {passports.Length} passports");
             foreach (string passport in passports)
             {
                 string[] parts = passport.Split(new char[] { '\n', ' ' }, StringSplitOptions.RemoveEmptyEntries);
@@ -46,17 +50,21 @@ namespace Advent_Of_Code.Day4
                     {
                         Console.WriteLine($"field not recognised! '{field.key}'");
                     }
-                    
+
                 }
                 if (requiredFieldCount == expectedRequiredFieldCount) ++validPassports;
             }
-
+            sw.Stop();
+            Console.WriteLine($"Completed in : {sw.Elapsed} ms.");
             return validPassports;
         }
 
 
         public static int SolvePart2()
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+
             int validPassports = 0;
             const string inches = "in", cm = nameof(cm);
 
@@ -73,13 +81,13 @@ namespace Advent_Of_Code.Day4
             Func<string, bool> ppId = (val) => regexPattern(val, "^[0-9]{9}$");
             Func<string, bool> funcLength = (val) =>
             {
-                var match =  new Regex(@"^(?<val>\d+)(?<kind>in|cm)$").Match(val);
+                var match = new Regex(@"^(?<val>\d+)(?<kind>in|cm)$").Match(val);
                 if (match.Success)
                 {
                     if (!int.TryParse(match.Groups["val"].Value, out int length)) return false;
 
                     string kind = match.Groups["kind"].Value;
-                    switch(kind)
+                    switch (kind)
                     {
                         case inches:
                             {
@@ -111,23 +119,23 @@ namespace Advent_Of_Code.Day4
                 {"cid", (false, null)},
             };
             int expectedRequiredFieldCount = fieldIds.Count(x => x.Value.required);
-            string data = File.ReadAllText(@"Day4\day4input.txt");
+            string data = WebClientHelper.GetInput(4);
             var passports = data.Replace("\r", "").Replace("\n\n", "@").Split(new char[] { '@' }, StringSplitOptions.RemoveEmptyEntries);
-            Console.WriteLine($"Found {passports.Length:NO} passports");
+            Console.WriteLine($"Found {passports.Length} passports");
 
             foreach (string passport in passports)
             {
                 string[] parts = passport.Split(new char[] { '\n', ' ' }, StringSplitOptions.RemoveEmptyEntries);
                 var fields = parts.Select(x => x.Split(':')).Select(x => new { key = x[0], value = x[1] }).ToList();
                 int requiredFieldCount = 0;
-               // int optionalFieldCount = 0;
+                // int optionalFieldCount = 0;
 
                 foreach (var field in fields)
                 {
                     if (fieldIds.TryGetValue(field.key, out (bool required, Func<string, bool> validator) info))
                     {
                         if (info.required && info.validator(field.value)) ++requiredFieldCount;
-                       // else ++optionalFieldCount;
+                        // else ++optionalFieldCount;
                     }
                     else
                     {
@@ -138,7 +146,9 @@ namespace Advent_Of_Code.Day4
                 if (requiredFieldCount == expectedRequiredFieldCount) ++validPassports;
             }
 
-            return validPassports;    
+            sw.Stop();
+            Console.WriteLine($"Completed in : {sw.Elapsed} ms.");
+            return validPassports;
         }
     }
 }
