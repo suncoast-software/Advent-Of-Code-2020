@@ -11,10 +11,10 @@ namespace Advent_Of_Code
         static void Main(string[] args)
         {
             
-            var partOneCount = Day4.Day4.SolvePart1();
-            var partTwoCount = Day4.Day4.SolvePart2();
-            Console.WriteLine($"Valid Passports Part 1: {partOneCount}");
-            Console.WriteLine($"Valid Passports Part 2: {partTwoCount}");
+            Day5.Day5.SolvePart1();
+            var missing = Day5.Day5.Part2();
+            Console.WriteLine($"Missing Seat ID: {missing}");
+           
             Console.ReadLine();
         }
     }
