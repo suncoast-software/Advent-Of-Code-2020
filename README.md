@@ -3,12 +3,12 @@ Advent of Code is an Advent calendar of small programming puzzles for a variety 
 
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
-| ✅ [Day 1: Report Repair](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/DayOne)| ✔ | ✔ |
-| ✅ [Day 2: Password Philosophy](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/DayTwo)| ✔ | ✔ |
-| ✅ [Day 3: Toboggan Trajectory](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/DayThree)| ✔ | ✔ |
-| ✅ [Day 4: Passport Processing](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day4)| ✔ | ✔ |
-| ✅ [Day 5: Binary Boarding](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day5)| ✔ | ✔ |
-| [Day 6: TBD]()| | |
+| ✅ [Day 1: Report Repair](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/DayOne)|🎇 | 🎇 |
+| ✅ [Day 2: Password Philosophy](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/DayTwo)| 🎇 | 🎇 |
+| ✅ [Day 3: Toboggan Trajectory](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/DayThree)| 🎇 | 🎇 |
+| ✅ [Day 4: Passport Processing](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day4)| 🎇 | 🎇 |
+| ✅ [Day 5: Binary Boarding](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day5)|🎇 | 🎇 |
+| [Day 6: Custom Customs ](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day6)| 🎇 | |
 | [Day 7: TBD]()| | |
 | [Day 8: TBD]()| | |
 | [Day 9: TBD]()| | |
