@@ -24,22 +24,22 @@ Advent of Code is an Advent calendar of small programming puzzles for a variety 
 <td align="center"><g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji></td>
 </tr>
 <tr>
-<td><a href="/pwncraft/adventofcode2020/blob/master">Day 3: TBD</a></td>
+<td><a "https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/DayThree">Day 3: TBD</a></td>
+<td align="center"><g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji></td>
+</tr>
+<tr>
+<td><a href=https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day4">Day 4: TBD</a></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td><a href="/pwncraft/adventofcode2020/blob/master">Day 4: TBD</a></td>
+<td><a href=https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day5">Day 5: TBD</a></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td><a href="/pwncraft/adventofcode2020/blob/master">Day 5: TBD</a></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td><a href="/pwncraft/adventofcode2020/blob/master">Day 6: TBD</a></td>
+<td><a href=https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day6">Day 6: TBD</a></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
