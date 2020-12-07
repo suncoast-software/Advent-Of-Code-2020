@@ -23,5 +23,18 @@ namespace Advent_Of_Code.Helper
                 return contents;
             } 
         }
+
+        public static string GetTestInput(int day)
+        {
+            string cashedFile = $"Day{day}\\testinput.txt";
+            if (File.Exists(cashedFile)) return File.ReadAllText(cashedFile);
+            else
+            {
+                var wc = new WebClient();
+                string contents = wc.DownloadString($"{BaseUrl}/{day}/{InputSuffix}");
+                File.WriteAllText(cashedFile, contents);
+                return contents;
+            }
+        }
     }
 }

@@ -10,7 +10,6 @@ namespace Advent_Of_Code.Day6
 {
    public class Day6
     {
-        private  static string[] _groups2;
         public static int SolvePart1()
         {
             var input = WebClientHelper.GetInput(6).Replace("\r", "").Replace("\n\n", "@").Split("@", StringSplitOptions.RemoveEmptyEntries);
