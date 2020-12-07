@@ -9,7 +9,7 @@ Advent of Code is an Advent calendar of small programming puzzles for a variety 
 | ✅ [Day 4: Passport Processing](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day4)| 🎇 | 🎇 |
 | ✅ [Day 5: Binary Boarding](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day5)|🎇 | 🎇 |
 | ✅ [Day 6: Custom Customs ](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day6)| 🎇 |🎇 |
-| [Day 7: TBD]()| | |
+| ✅ [Day 7: Handy Haversacks]((https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day7))| 🎇 | 🎇 |
 | [Day 8: TBD]()| | |
 | [Day 9: TBD]()| | |
 | [Day 10: TBD]()| | |
