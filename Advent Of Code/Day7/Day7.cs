@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,8 @@ namespace Advent_Of_Code.Day7
     {
         public static int SolvePart1()
         {
+            var sw = new Stopwatch();
+            sw.Start();
             string[] testInput = File.ReadAllLines(@"Day7\testinput.txt");
             var input = File.ReadAllLines(@"Day7\Day7input.txt");
 
@@ -33,11 +36,15 @@ namespace Advent_Of_Code.Day7
                     }
                 }
             }
+            sw.Stop();
+            Console.WriteLine($"Completed in : {sw.ElapsedMilliseconds} ms");
             return count;
         }
 
         public static int SolvePart2()
         {
+            var sw = new Stopwatch();
+            sw.Start();
             string[] input = File.ReadAllLines(@"Day7\day7input.txt");
 
             int GetBags(string bag)
@@ -56,6 +63,8 @@ namespace Advent_Of_Code.Day7
                 return count;
             }
 
+            sw.Stop();
+            Console.WriteLine($"Completed in : {sw.ElapsedMilliseconds} ms");
             return GetBags("shiny gold");
         }
     }
