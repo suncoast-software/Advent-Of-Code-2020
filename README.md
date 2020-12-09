@@ -11,8 +11,8 @@ created by [Eric Wastl](http://was.tl/), People use them as a speed contest, int
 | ✅ [Day 5: Binary Boarding](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day5)|🎇 | 🎇 |
 | ✅ [Day 6: Custom Customs ](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day6)| 🎇 |🎇 |
 | ✅ [Day 7: Handy Haversacks](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day7)| 🎇 | 🎇 |
-| [Day 8: TBD]()| | |
-| [Day 9: TBD]()| | |
+| ✅ [Day 8: Handheld Halting]((https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day8)| 🎇 | 🎇 |
+| ✅ [Day 9: Encoding Error]((https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day9)| 🎇 | 🎇 |
 | [Day 10: TBD]()| | |
 | [Day 11: TBD]()| | |
 | [Day 12: TBD]()| | |
