@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-//using Advent_Of_Code._2019.Day1;
+using BenchmarkDotNet.Running;
+using Advent_Of_Code._2019.Day1;
 
 namespace Advent_Of_Code
 {
@@ -10,9 +11,12 @@ namespace Advent_Of_Code
     {
         static void Main(string[] args)
         {
-            var score = Day7.Day7.SolvePart2();
-            Console.WriteLine($"Sum: {score}");
-           
+            var part1Result = Day9.Day9.SolvePart1();
+            var part2Result = Day9.Day9.SolvePart2();
+            Console.WriteLine($"Part 1: {part1Result}");
+            Console.WriteLine($"Part 2: {part2Result}");
+
+            // BenchmarkRunner.Run<Benchmark.Class1>();
             Console.ReadLine();
         }
     }

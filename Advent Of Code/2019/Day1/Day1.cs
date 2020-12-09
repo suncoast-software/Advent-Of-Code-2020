@@ -35,11 +35,21 @@ namespace Advent_Of_Code._2019.Day1
                 {
                     var t = Math.Floor(temp);
                     var tempNum = (t / 3) - 2;
+                    if (Math.Floor(tempNum) < 0)
+                        result = Convert.ToUInt64(result += 0);
                     result += Math.Floor(tempNum);
+
                 }
 
             }
             return Convert.ToUInt64(result);
+        }
+
+        public double fuel(double num)
+        {
+            double result = (num / 3) - 2;
+            return result += Math.Floor(result);
+          
         }
     }
 }
