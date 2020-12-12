@@ -89,11 +89,8 @@ namespace Advent_Of_Code.Day8
                     toReturn.infinate = false;
                     toReturn.acc = globalAcc;
                 }
-                    
-
-
             }
-            Console.WriteLine($"part 1 : {globalAcc}");
+            Console.WriteLine($"part 2 : {globalAcc}");
             return toReturn;
         }
         public class Result
