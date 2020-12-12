@@ -14,8 +14,8 @@ created by [Eric Wastl](http://was.tl/), People use them as a speed contest, int
 | ✅ [Day 8: Handheld Halting](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day8)| 🎇 | |
 | ✅ [Day 9: Encoding Error](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day9)| 🎇 | 🎇 |
 | ✅ [Day 10: Adapter Array](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day10)| 🎇 | 🎇 |
-| [Day 11: TBD]()| | |
-| [Day 12: TBD]()| | |
+| ✅ [Day 11: Seating System](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day11)| 🎇 | 🎇 |
+| ✅ [Day 12: Rain Risk](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day12)| 🎇 | 🎇 |
 | [Day 13: TBD]()| | |
 | [Day 14: TBD]()| | |
 | [Day 15: TBD]()| | |
