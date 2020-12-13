@@ -11,9 +11,9 @@ namespace Advent_Of_Code
     {
         static void Main(string[] args)
         {
-            var part1Result = Day12.Day12.SolvePart1();
-            var part2Result = Day12.Day12.SolvePart2();
-             Console.WriteLine($"Part 1: {part1Result}");
+            //var part1Result = Day8.Day8.SolvePart1();
+            var part2Result = Day8.Day8.SolvePart2();
+             //Console.WriteLine($"Part 1: {part1Result}");
             Console.WriteLine($"Part 2: {part2Result}");
 
             // BenchmarkRunner.Run<Benchmark.Class1>();

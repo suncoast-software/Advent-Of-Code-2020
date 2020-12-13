@@ -30,6 +30,7 @@ namespace Advent_Of_Code.Day8
                 {
                     case "nop":
                         pc++;
+                      
                         break;
                     case "acc":
                         globalAcc += int.Parse(opandArgs[1]);
@@ -37,6 +38,7 @@ namespace Advent_Of_Code.Day8
                         break;
                     case "jmp":
                         pc += int.Parse(opandArgs[1]);
+                       
                         break;
                 }
 
@@ -49,49 +51,79 @@ namespace Advent_Of_Code.Day8
             return globalAcc;
         }
 
-        public static Result SolvePart2()
+        public static int SolvePart2()
         {
-            Result toReturn = new Result();
-            globalAcc = 0;
-            pc = 0;
-            List<int> visitedPcs = new List<int>();
-
-            bool run = true;
-            while (run)
+            for (int i = 0; i < InstructionList().Length; i++)
             {
-                visitedPcs.Add(pc);
-                string op = input[pc];
-                string[] opandArgs = op.Split(" ");
-
-                switch (opandArgs[0])
+                var newInstructions = InstructionList();
+                if (newInstructions[i].Instruction == "acc")
                 {
-                    case "nop":
-                        pc++;
-                        break;
-                    case "acc":
-                        globalAcc += int.Parse(opandArgs[1]);
-                        pc++;
-                        break;
-                    case "jmp":
-                        pc += int.Parse(opandArgs[1]);
-                        break;
+                    continue;
                 }
-
-                if (visitedPcs.Contains(pc))
+                if (newInstructions[i].Instruction == "nop")
                 {
-                    run = false;
-                    toReturn.infinate = true;
-                    toReturn.acc = globalAcc;
+                    newInstructions[i].Instruction = "jmp";
                 }
-                else if (pc >= input.Length)
+                else if (newInstructions[i].Instruction == "jmp")
                 {
-                    run = false;
-                    toReturn.infinate = false;
-                    toReturn.acc = globalAcc;
+                    newInstructions[i].Instruction = "nop";
+                }
+                var (loop, acc) = ExecuteInstructions(newInstructions);
+                if (loop == true)
+                {
+                    return acc;
                 }
             }
-            Console.WriteLine($"part 2 : {globalAcc}");
-            return toReturn;
+            return 0;
+        }
+
+        private static (bool loop, int count) ExecuteInstructions(Instructions[] instructions)
+        {
+            int count = 0;
+            int pos = 0;
+            while (true)
+            {
+                if (pos >= instructions.Length)
+                {
+                    return (true, count);
+                }
+                if (instructions[pos].Executed)
+                {
+                    return (false, count);
+                }
+                instructions[pos].Executed = true;
+                if (instructions[pos].Instruction == "jmp")
+                {
+                    pos += instructions[pos].Number;
+                }
+                else
+                {
+                    if (instructions[pos].Instruction == "acc")
+                    {
+                        count += instructions[pos].Number;
+                    }
+                    pos++;
+                }
+            }
+        }
+
+        private static Instructions[] InstructionList()
+        {
+            IEnumerable<Instructions> result = from instruction in System.IO.File.ReadAllLines(@"Day8/day8input.txt")
+                                               select new Instructions()
+                                               {
+                                                   Instruction = instruction.Substring(0, 3),
+                                                   Number = int.Parse(instruction.Substring(3).Trim()),
+                                                   Executed = false
+                                               };
+            return result.ToArray();
+        }
+
+        public class Instructions
+        {
+            public string Instruction { get; set; }
+            public int Number { get; set; }
+            public bool Executed { get; set; }
         }
         public class Result
         {

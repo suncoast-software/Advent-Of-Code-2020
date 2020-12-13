@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Advent_Of_Code.Helper;
 
 namespace Advent_Of_Code.Day12
 {
@@ -14,7 +15,7 @@ namespace Advent_Of_Code.Day12
 		{
 			var pos = (x: 0, y: 0);
 			var dir = 90;
-
+			
 			foreach (var line in input)
 			{
 				var cmd = line[0];
