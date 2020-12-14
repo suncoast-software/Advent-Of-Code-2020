@@ -11,12 +11,11 @@ namespace Advent_Of_Code
     {
         static void Main(string[] args)
         {
-            Day13.Day13.SolvePart2();
-            //var part2Result = Day13.Day13.SolvePart2();
-             //Console.WriteLine($"Part 1: {part1Result}");
-            //Console.WriteLine($"Part 2: {part2Result}");
+            var part2 =  Day14.Day14.SolvePart2();
+            Console.WriteLine($"Part 2: {part2}");
 
             // BenchmarkRunner.Run<Benchmark.Class1>();
+
             Console.ReadLine();
         }
     }
