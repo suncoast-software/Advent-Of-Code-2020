@@ -19,7 +19,7 @@ created by [Eric Wastl](http://was.tl/), People use them as a speed contest, int
 | ✅ [Day 12: Shuttle Search](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day13)| 🎇 | 🎇 |
 | ✅ [Day 14: Docking Data](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day14)| 🎇 | 🎇 |
 | ✅ [Day 15: Rambunctious Recitation](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day15)| 🎇 | 🎇 |
-| [Day 16: TBD]()| | |
+| ✅ [Day 16: Ticket Translation](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day16)| 🎇 |  |
 | [Day 17: TBD]()| | |
 | [Day 18: TBD]()| | |
 | [Day 19: TBD]()| | |
