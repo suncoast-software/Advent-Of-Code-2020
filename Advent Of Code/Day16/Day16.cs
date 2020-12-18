@@ -14,6 +14,7 @@ namespace Advent_Of_Code.Day16
         public static int SolvePart1()
         {
             var result = 0;
+            var newResult = 1;
             string[] ourTicket;
             List<string[]> validTickets = new List<string[]>();
             List<Rule> rules = new();
@@ -81,11 +82,12 @@ namespace Advent_Of_Code.Day16
                         }
                     } 
                 }
+                
                 foreach (var rule in rules)
                 {
                     if (rule.Name.Contains("departure"))
                     {
-
+                        newResult *= newResult;
                     }
                 }
             }
@@ -93,7 +95,7 @@ namespace Advent_Of_Code.Day16
             {
                Console.WriteLine($"ERROR { ex.Message}");
             }
-            return result;
+            return newResult;
         }
 
         public static int SolvePart2()
