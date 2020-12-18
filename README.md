@@ -20,8 +20,8 @@ created by [Eric Wastl](http://was.tl/), People use them as a speed contest, int
 | ✅ [Day 14: Docking Data](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day14)| 🎇 | 🎇 |
 | ✅ [Day 15: Rambunctious Recitation](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day15)| 🎇 | 🎇 |
 | ✅ [Day 16: Ticket Translation](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day16)| 🎇 |  |
-| [Day 17: TBD]()| | |
-| [Day 18: TBD]()| | |
+| ❌ [Day 17: Conway Cubes](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day17)|  |  |
+| ✅ [Day 18: Operation Order](https://github.com/suncoast-software/Advent-Of-Code/tree/master/Advent%20Of%20Code/Day18)| 🎇 | 🎇 |
 | [Day 19: TBD]()| | |
 | [Day 20: TBD]()| | |
 | [Day 21: TBD]()| | |
